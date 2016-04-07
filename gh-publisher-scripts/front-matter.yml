@@ -19,7 +19,7 @@ abstract: "words, words, words"
 # These fields can contain HTML tags.  You probably want to put <br />
 # in the address somewhere, indicating a line break.
 
-#authors:
+authors:
 - name: Joseph H. Bloggs
   address: International Institute for Interminable Examples, P.O. Box 1,<br />Beverly Hills, CA 90210, USA.
 - name: Clara McNarma
