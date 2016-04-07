@@ -1,6 +1,4 @@
-language: ruby
-rvm:
-- 2.0.0
+language: python
 script: /bin/bash gh-publisher-scripts/gh-publisher.sh
 before_install:
 - yes "" | sudo apt-add-repository ppa:texlive-backports/ppa
@@ -11,3 +9,5 @@ before_install:
      texlive-latex-extra
      texlive-latex-recommended
      texlive-xetex
+- pip install -U pip
+- pip install notedown
