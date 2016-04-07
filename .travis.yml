@@ -1,8 +1,7 @@
 language: python
 
 env:
-  - CONDA_DEPS="pip numpy scipy matplotlib pandas" PIP_DEPS="coveralls"
-  - PIP_DEPS="notedown nbformat nbconvert"
+  - CONDA_DEPS="pip numpy scipy matplotlib pandas" PIP_DEPS="notedown nbformat nbconvert"
 
 before_install:
 - yes "" | sudo apt-add-repository ppa:texlive-backports/ppa
