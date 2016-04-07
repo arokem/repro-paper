@@ -15,8 +15,8 @@ before_install:
      texlive-latex-extra
      texlive-latex-recommended
      texlive-xetex
-- wget https://github.com/jgm/pandoc/releases/download/1.17.0.2/pandoc-1.17.0.2-1-amd64.deb > /var/cache/apt/archives/pandoc-1.17.0.2-1-amd64.deb
-- sudo apt-get install -y pandoc
+- wget https://github.com/jgm/pandoc/releases/download/1.17.0.2/pandoc-1.17.0.2-1-amd64.deb -O pandoc.deb
+- sudo apt-get install -y pandoc.deb
 - export MINICONDA=$HOME/miniconda
 - export PATH="$MINICONDA/bin:$PATH"
 - hash -r
